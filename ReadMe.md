@@ -56,7 +56,7 @@ SERPER_API_KEY=your_serper_api_key
 Start the Streamlit app:
 
 ```bash
-$ streamlit run app.py
+$ streamlit run med_agent.py
 ```
 
 The application will be accessible at `http://localhost:8501`.
@@ -73,7 +73,7 @@ The application will be accessible at `http://localhost:8501`.
 
 ```
 ai-healthcare-assistant/
-├── app.py                  # Main Streamlit application file
+├── med_agent.py            # Main Streamlit application file
 ├── requirements.txt        # Python dependencies
 ├── .env.example            # Example environment variables file
 ├── README.md               # Project documentation
